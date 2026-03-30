@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoVoice PH — Student Environmental Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div id="progress-bar"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#home">
+        <span class="nav-leaf">🌿</span>
+        <div class="nav-brand-text">
+          <span class="brand-name">EcoVoice PH</span>
+          <span class="brand-sub">Student Environmental Blog</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#posts">Blog Posts</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#posts">Blog Posts</a>
+      <a href="#references">References</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grain"></div>
+    <div class="hero-content reveal-hero">
+      <h1 class="hero-title">Our Planet Speaks.<br><em>Are We Listening?</em></h1>
+      <p class="hero-desc">A student-led environmental blog exploring 3 critical issues threatening our world and the Philippines — from climate change to biodiversity loss. Informed citizens create a greener future.</p>
+      <div class="hero-actions">
+        <a href="#posts" class="btn-primary">Explore All Topics →</a>
+        <a href="#about" class="btn-ghost">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-stats reveal-hero">
+      <div class="hero-stat">
+        <span class="stat-n" data-target="3" data-suffix="">0</span>
+        <span class="stat-l">Blog Topics</span>
+      </div>
+      <div class="hero-stat-div"></div>
+      <div class="hero-stat">
+        <span class="stat-n" data-target="7" data-suffix="B+">0</span>
+        <span class="stat-l">People Affected</span>
+      </div>
+      <div class="hero-stat-div"></div>
+      <div class="hero-stat">
+        <span class="stat-n no-count">1 Planet</span>
+        <span class="stat-l">To Protect</span>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>SCROLL DOWN</span>
+    </div>
+    <div class="hero-ticker">
+      <div class="ticker-track">
+        <span>ENVIRONMENTAL AWARENESS BLOG</span><span class="dot">·</span>
+        <span>IT STUDENTS 2025</span><span class="dot">·</span>
+        <span>ENVIRONMENTAL AWARENESS BLOG</span><span class="dot">·</span>
+        <span>IT STUDENTS 2025</span><span class="dot">·</span>
+        <span>ENVIRONMENTAL AWARENESS BLOG</span><span class="dot">·</span>
+        <span>IT STUDENTS 2025</span><span class="dot">·</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <span class="section-label">— WHY THIS BLOG EXISTS</span>
+          <h2 class="about-title">Informed Students.<br><em>Responsible Citizens.</em><br>A Greener Future.</h2>
+          <p>This blog is a student-led academic project by Information Technology students, integrating environmental literacy with digital communication skills. Each post addresses a real and pressing environmental issue — from the root causes of global warming to its climate impacts and the devastating effects of biodiversity loss.</p>
+          <div class="about-actions">
+            <a href="#posts" class="btn-primary">Browse All Posts</a>
+            <a href="#references" class="btn-outline">View References</a>
+          </div>
+        </div>
+        <div class="about-right reveal">
+          <div class="objectives-label">BLOG OBJECTIVES</div>
+          <div class="objectives-list">
+            <div class="obj-item">
+              <span class="obj-icon">🌐</span>
+              <div>
+                <strong>Explain Environmental Issues</strong>
+                <p>Present important environmental challenges and their effects on society, ecosystems, and communities in the Philippines.</p>
+              </div>
+            </div>
+            <div class="obj-item">
+              <span class="obj-icon">🖥️</span>
+              <div>
+                <strong>Digital Communication</strong>
+                <p>Apply web and blogging skills to organize, design, and publish informative content using a modern digital platform.</p>
+              </div>
+            </div>
+            <div class="obj-item">
+              <span class="obj-icon">💡</span>
+              <div>
+                <strong>Raise Awareness</strong>
+                <p>Promote environmental literacy, responsibility, and a sense of stewardship toward our natural world and resources.</p>
+              </div>
+            </div>
+            <div class="obj-item">
+              <span class="obj-icon">📖</span>
+              <div>
+                <strong>Academic Excellence</strong>
+                <p>Demonstrate research skills, accurate sourcing, and the ability to present complex topics clearly and engagingly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section class="featured-section">
+    <div class="container">
+      <div class="featured-header reveal">
+        <div>
+          <span class="section-label light">— FEATURED ISSUES</span>
+          <h2 class="featured-title">Explore the <em>Key Issues</em></h2>
+        </div>
+        <p class="featured-sub">Highlighting three of the most critical environmental challenges facing our planet and the Philippines today.</p>
+      </div>
+      <div class="featured-cards">
+        <a href="#post-1" class="feat-card reveal">
+          <div class="feat-img" style="background-image:url('https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800&q=80')"></div>
+          <div class="feat-badge">● GLOBAL WARMING</div>
+          <div class="feat-body">
+            <h3>The Causes of Global Warming</h3>
+            <p>From burning fossil fuels to deforestation and industrial agriculture, human activities are the primary drivers pushing our planet toward dangerous temperature thresholds...</p>
+            <span class="feat-read">7 min read <span class="feat-arrow">↗</span></span>
+          </div>
+        </a>
+        <a href="#post-2" class="feat-card reveal">
+          <div class="feat-img" style="background-image:url('https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80')"></div>
+          <div class="feat-badge">● CLIMATE IMPACT</div>
+          <div class="feat-body">
+            <h3>Climate Change and Its Impact</h3>
+            <p>Rising seas, intensifying storms, prolonged droughts, and shifting seasons — climate change is no longer a future threat. Its impacts are being felt right now...</p>
+            <span class="feat-read">8 min read <span class="feat-arrow">↗</span></span>
+          </div>
+        </a>
+        <a href="#post-3" class="feat-card reveal">
+          <div class="feat-img" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800&q=80')"></div>
+          <div class="feat-badge">● BIODIVERSITY LOSS</div>
+          <div class="feat-body">
+            <h3>Effect of Biodiversity Loss</h3>
+            <p>We are living through Earth's sixth mass extinction event, with species vanishing 1,000 times faster than natural rates. The loss doesn't just impoverish nature...</p>
+            <span class="feat-read">7 min read <span class="feat-arrow">↗</span></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ALL BLOG POSTS -->
+  <section id="posts" class="posts-section">
+    <div class="container">
+      <div class="posts-header reveal">
+        <span class="section-label center">3 TOPICS · STUDENT BLOG</span>
+        <h2 class="posts-title">All Blog Posts</h2>
+        <p class="posts-sub">3 focused environmental topics researched and written by IT students — exploring the causes of warming, its climate impacts, and the effects of biodiversity loss.</p>
+      </div>
+      <div class="filter-row reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="warming">Global Warming</button>
+        <button class="filter-btn" data-filter="climate">Climate Impact</button>
+        <button class="filter-btn" data-filter="bio">Biodiversity Loss</button>
+      </div>
+      <div class="post-cards">
+
+        <article id="post-1" class="post-card reveal" data-cat="warming">
+          <div class="post-card-img" style="background-image:url('https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=900&q=80')">
+            <span class="post-badge warming">GLOBAL WARMING</span>
+            <span class="post-readtime">7 min read</span>
+          </div>
+          <div class="post-card-body">
+            <span class="post-meta">#01 · March 2025</span>
+            <h3>The Causes of Global Warming</h3>
+            <p>Global warming does not happen by accident. From burning fossil fuels to deforestation and industrial agriculture, human activities are the primary drivers pushing our planet toward dangerous temperature thresholds.</p>
+            <div class="post-full-content">
+              <h4>What Are Greenhouse Gases?</h4>
+              <p>Greenhouse gases like carbon dioxide (CO₂), methane (CH₄), and nitrous oxide (N₂O) trap heat from the sun in Earth's atmosphere. While this is natural and necessary for life, human activity has dramatically increased the concentration of these gases, intensifying the greenhouse effect and warming our planet.</p>
+              <h4>Main Human Causes</h4>
+              <ul>
+                <li><strong>Burning Fossil Fuels:</strong> Coal, oil, and natural gas release massive amounts of CO₂ when burned for electricity, transportation, and industry — the single largest contributor to global warming.</li>
+                <li><strong>Deforestation:</strong> Trees absorb CO₂. When forests are cleared — as in Palawan or the Amazon — that stored carbon is released back into the atmosphere.</li>
+                <li><strong>Agriculture:</strong> Livestock farming produces methane, while rice paddies and synthetic fertilizers release nitrous oxide — both potent greenhouse gases.</li>
+                <li><strong>Industrial Processes:</strong> Cement, steel, and chemical manufacturing emit CO₂ and other greenhouse gases as direct byproducts of production.</li>
+                <li><strong>Waste & Landfills:</strong> Decomposing organic waste in landfills produces methane — a gas 25× more potent than CO₂ over a 100-year period.</li>
+              </ul>
+              <div class="post-example">
+                <span class="example-tag">🇵🇭 Philippine Context</span>
+                <p>Metro Manila's millions of jeepneys, tricycles, and private vehicles contribute significantly to urban air pollution and CO₂ emissions. The Philippines, while a minor global emitter, is considered among the most climate-vulnerable nations in the world.</p>
+              </div>
+              <div class="post-summary">
+                <strong>Quick Summary:</strong> Human activities → increased greenhouse gases → trapped heat → rising global temperatures → cascading environmental and humanitarian consequences.
+              </div>
+            </div>
+            <div class="post-tags"><span>Fossil Fuels</span><span>Greenhouse Gases</span><span>Carbon Emissions</span></div>
+            <button class="read-toggle" onclick="openModal('post-1')">Read Full Post →</button>
+          </div>
+        </article>
+
+        <article id="post-2" class="post-card reveal" data-cat="climate">
+          <div class="post-card-img" style="background-image:url('https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80')">
+            <span class="post-badge climate">CLIMATE IMPACT</span>
+            <span class="post-readtime">8 min read</span>
+          </div>
+          <div class="post-card-body">
+            <span class="post-meta">#02 · March 2025</span>
+            <h3>Climate Change and Its Impact</h3>
+            <p>Rising seas, intensifying storms, prolonged droughts, and shifting seasons — climate change is no longer a future threat. Its impacts are being felt right now, across every region of the globe.</p>
+            <div class="post-full-content">
+              <h4>A Planet Under Stress</h4>
+              <p>The IPCC warns that if global warming exceeds 1.5°C above pre-industrial levels, consequences for ecosystems and human societies will be severe and widespread. We are currently at approximately 1.1°C of warming — and rising faster than at any point in human history.</p>
+              <h4>Key Impacts</h4>
+              <ul>
+                <li><strong>Rising Sea Levels:</strong> Melting glaciers and ice sheets raise ocean levels, threatening coastal cities, low-lying farmland, and island nations like the Maldives and parts of the Philippines.</li>
+                <li><strong>Stronger Typhoons:</strong> Warmer ocean temperatures give more energy to tropical storms. The Philippines, in the typhoon belt, now faces increasingly powerful and erratic typhoons annually.</li>
+                <li><strong>Food Insecurity:</strong> Shifting rainfall patterns and extreme heat damage crop yields, threatening food security for billions of people — particularly in Southeast Asia and sub-Saharan Africa.</li>
+                <li><strong>Health Risks:</strong> Heat waves, expanding disease vectors like dengue mosquitoes, and worsening air quality increase mortality and illness globally.</li>
+                <li><strong>Climate Displacement:</strong> The Internal Displacement Monitoring Centre reports millions of people are displaced annually by floods, droughts, and extreme weather events.</li>
+              </ul>
+              <div class="post-example">
+                <span class="example-tag">🇵🇭 Philippine Context</span>
+                <p>Super Typhoon Haiyan (Yolanda) struck on November 8, 2013 with winds exceeding 315 km/h — one of the strongest tropical cyclones ever recorded. It killed over 6,000 Filipinos and displaced 4 million. Scientists link the intensification of such storms directly to warming ocean temperatures.</p>
+              </div>
+              <div class="post-summary">
+                <strong>Quick Summary:</strong> Rising temperatures → more extreme weather events → damage to infrastructure, food systems, public health, and coastal communities worldwide.
+              </div>
+            </div>
+            <div class="post-tags"><span>Sea Level Rise</span><span>Extreme Weather</span><span>Food Security</span></div>
+            <button class="read-toggle" onclick="openModal('post-2')">Read Full Post →</button>
+          </div>
+        </article>
+
+        <article id="post-3" class="post-card reveal" data-cat="bio">
+          <div class="post-card-img" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=900&q=80')">
+            <span class="post-badge bio">BIODIVERSITY LOSS</span>
+            <span class="post-readtime">7 min read</span>
+          </div>
+          <div class="post-card-body">
+            <span class="post-meta">#03 · March 2025</span>
+            <h3>Effect of Biodiversity Loss</h3>
+            <p>We are living through Earth's sixth mass extinction event, with species vanishing 1,000 times faster than natural rates. The loss of biodiversity doesn't just impoverish nature — it destabilizes the systems that keep us alive.</p>
+            <div class="post-full-content">
+              <h4>What Is Biodiversity?</h4>
+              <p>Biodiversity encompasses the variety of all living organisms — genes, species, habitats, and ecosystems — and the complex interactions between them. It is the foundation of ecosystem services that sustain human civilization: clean air, fresh water, fertile soil, and climate stability.</p>
+              <h4>Five Major Effects of Biodiversity Loss</h4>
+              <ul>
+                <li><strong>Ecosystem Collapse:</strong> Every species plays a role in its ecosystem. Losing even one species can trigger chain reactions — the extinction of a key pollinator can devastate entire food webs.</li>
+                <li><strong>Food System Failure:</strong> Around 75% of global food crops depend on animal pollinators. Declining bee populations pose a direct and measurable threat to agricultural productivity worldwide.</li>
+                <li><strong>Loss of Medicine:</strong> Over 50% of modern pharmaceuticals are derived from or inspired by natural organisms. Each extinction permanently erases potential cures for diseases we haven't yet faced.</li>
+                <li><strong>Accelerated Climate Change:</strong> Forests and wetlands regulate climate by absorbing carbon. Their destruction removes critical carbon sinks and accelerates global warming.</li>
+                <li><strong>Cultural & Spiritual Loss:</strong> Many indigenous communities in the Philippines have deep, centuries-old cultural ties to biodiversity that are irreplaceable once lost.</li>
+              </ul>
+              <div class="post-example">
+                <span class="example-tag">🇵🇭 Philippine Context</span>
+                <p>The Philippines is one of the world's 17 megadiverse countries, home to over 52,000 species — many found nowhere else on Earth. Yet it also has one of the highest deforestation rates in Southeast Asia. The Philippine Eagle, the Tamaraw, and thousands of endemic plant species are now critically endangered.</p>
+              </div>
+              <div class="post-summary">
+                <strong>Quick Summary:</strong> Habitat destruction → species extinction → broken ecosystem services → direct threats to food supply, medicine, climate stability, and human well-being.
+              </div>
+            </div>
+            <div class="post-tags"><span>Extinction</span><span>Ecosystem Services</span><span>Conservation</span></div>
+            <button class="read-toggle" onclick="openModal('post-3')">Read Full Post →</button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LEARNING OBJECTIVES -->
+  <section class="learn-section">
+    <div class="container">
+      <div class="learn-inner reveal">
+        <span class="section-label center light">WHAT YOU'LL LEARN</span>
+        <h2>Learning Objectives</h2>
+        <div class="learn-grid">
+          <div class="learn-item"><span>✦</span>Explain the main causes of global warming and name the primary greenhouse gases</div>
+          <div class="learn-item"><span>✦</span>Describe how climate change affects weather patterns, food supply, and public health</div>
+          <div class="learn-item"><span>✦</span>Define biodiversity and explain why it is essential to human and ecosystem well-being</div>
+          <div class="learn-item"><span>✦</span>Provide real-life examples from the Philippines and the global context</div>
+          <div class="learn-item"><span>✦</span>Identify credible scientific sources and evaluate environmental claims critically</div>
+          <div class="learn-item"><span>✦</span>Understand actions individuals can take to reduce their environmental impact</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REFERENCES -->
+  <section id="references" class="references-section">
+    <div class="container">
+      <div class="ref-header reveal">
+        <span class="section-label center">— CREDIBLE SOURCES —</span>
+        <h2>References &amp; Sources</h2>
+        <p>All information in this blog is sourced from credible international organizations, academic reports, government publications, and Philippine legislation.</p>
+      </div>
+
+      <div class="ref-category reveal">
+        <div class="ref-cat-label"><span class="ref-dot warming-dot"></span>Global Warming</div>
+        <div class="ref-grid">
+          <a href="https://www.officialgazette.gov.ph/2009/10/23/republic-act-no-9729/" target="_blank" class="ref-card highlight-ref">
+            <div class="ref-card-top"><span class="ref-type government">Government</span><span class="ref-topic">Global Warming</span></div>
+            <span class="ref-org">REPUBLIC ACT NO. 9729 — REPUBLIC OF THE PHILIPPINES</span>
+            <strong>Philippine Climate Change Act of 2009</strong>
+            <span class="ref-link">↗ View Source</span>
+          </a>
+          <a href="https://www.denr.gov.ph/index.php/news-and-updates/denr-news/7228-philippines-submits-updated-nationally-determined-contribution-to-unfccc" target="_blank" class="ref-card">
+            <div class="ref-card-top"><span class="ref-type government">Government</span><span class="ref-topic">Global Warming</span></div>
+            <span class="ref-org">DENR — DEPARTMENT OF ENVIRONMENT AND NATURAL RESOURCES</span>
+            <strong>Philippines Submits Updated Nationally Determined Contribution (NDC) to UNFCCC</strong>
+            <span class="ref-link">↗ View Source</span>
+          </a>
+          <a href="https://climate.gov.ph" target="_blank" class="ref-card">
+            <div class="ref-card-top"><span class="ref-type website">Website</span><span class="ref-topic">Global Warming</span></div>
+            <span class="ref-org">PAGASA — PHILIPPINE ATMOSPHERIC, GEOPHYSICAL AND ASTRONOMICAL SERVICES ADMINISTRATION</span>
+            <strong>Philippine Greenhouse Gas Emissions and Climate Projections</strong>
+            <span class="ref-link">↗ View Source</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="ref-category reveal">
+        <div class="ref-cat-label"><span class="ref-dot climate-dot"></span>Climate Impact</div>
+        <div class="ref-grid">
+          <a href="https://www.unocha.org/publications/report/philippines/philippines-super-typhoon-haiyan-yolanda-retrospect-humanitarian-impact-and-response-achievements-humanitarian-country-team-26-october-2023" target="_blank" class="ref-card highlight-ref">
+            <div class="ref-card-top"><span class="ref-type report">Report</span><span class="ref-topic">Climate Impact · PH</span></div>
+            <span class="ref-org">UN OCHA — UNITED NATIONS OFFICE FOR THE COORDINATION OF HUMANITARIAN AFFAIRS</span>
+            <strong>Super Typhoon Haiyan (Yolanda) In Retrospect — 6,000+ Deaths, 4M Displaced, 16M Affected, November 2013</strong>
+            <span class="ref-link">↗ View Source</span>
+          </a>
+          <a href="https://bagong.pagasa.dost.gov.ph/climate/climate-change/dynamic-downscaling" target="_blank" class="ref-card">
+            <div class="ref-card-top"><span class="ref-type report">Report</span><span class="ref-topic">Climate Impact · PH</span></div>
+            <span class="ref-org">PAGASA — DOST (PHILIPPINE ATMOSPHERIC, GEOPHYSICAL AND ASTRONOMICAL SERVICES ADMINISTRATION)</span>
+            <strong>Philippine Climate Extremes Report 2020 &amp; CMIP6 Projections: Stronger Typhoons, Sea Level Rise, Rainfall Shifts</strong>
+            <span class="ref-link">↗ View Source</span>
+          </a>
+          <a href="https://climate.nasa.gov/what-is-climate-change/" target="_blank" class="ref-card">
+            <div class="ref-card-top"><span class="ref-type website">Website</span><span class="ref-topic">Climate Impact · Global</span></div>
+            <span class="ref-org">NASA — GLOBAL CLIMATE CHANGE: VITAL SIGNS OF THE PLANET</span>
+            <strong>What Is Climate Change? Global Impacts: Melting Ice, Extreme Weather, Rising Seas, and Displacement</strong>
+            <span class="ref-link">↗ View Source</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="ref-category reveal">
+        <div class="ref-cat-label"><span class="ref-dot bio-dot"></span>Biodiversity Loss</div>
+        <div class="ref-grid">
+          <a href="https://www.denr.gov.ph/index.php/the-philippine-biodiversity-strategy-and-action-plan" target="_blank" class="ref-card highlight-ref">
+            <div class="ref-card-top"><span class="ref-type report">Report</span><span class="ref-topic">Biodiversity</span></div>
+            <span class="ref-org">DENR — DEPARTMENT OF ENVIRONMENT AND NATURAL RESOURCES</span>
+            <strong>Philippine Biodiversity Strategy and Action Plan (PBSAP) 2015–2028</strong>
+            <span class="ref-link">↗ View Source</span>
+          </a>
+          <a href="https://www.officialgazette.gov.ph/1992/06/01/republic-act-no-7586/" target="_blank" class="ref-card">
+            <div class="ref-card-top"><span class="ref-type government">Government</span><span class="ref-topic">Biodiversity</span></div>
+            <span class="ref-org">REPUBLIC ACT NO. 7586 — REPUBLIC OF THE PHILIPPINES</span>
+            <strong>National Integrated Protected Areas System (NIPAS) Act of 1992</strong>
+            <span class="ref-link">↗ View Source</span>
+          </a>
+          <a href="https://www.pawb.gov.ph/index.php/philippine-wildlife" target="_blank" class="ref-card">
+            <div class="ref-card-top"><span class="ref-type website">Website</span><span class="ref-topic">Biodiversity</span></div>
+            <span class="ref-org">PAWB — PROTECTED AREAS AND WILDLIFE BUREAU, DENR</span>
+            <strong>Philippine Wildlife: Endemic and Threatened Species in the Philippines</strong>
+            <span class="ref-link">↗ View Source</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-section">
+    <div class="cta-leaves"></div>
+    <div class="cta-inner reveal">
+      <div class="cta-icon">🌍</div>
+      <h2>Our Planet Needs All of Us</h2>
+      <p>Environmental protection is not just the responsibility of governments and corporations — it begins with each one of us. Through education, awareness, and collective action, we can build a sustainable future for the Philippines and the world. This blog is our small but sincere contribution to that mission.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid container">
+      <div class="footer-brand-col">
+        <div class="footer-brand">
+          <span>🌿</span>
+          <div><span class="f-name">EcoVoice PH</span><span class="f-sub">Student Blog</span></div>
+        </div>
+        <p>An IT student-led environmental blog discussing critical issues affecting our world and the Philippines. Knowledge is the first step toward environmental action.</p>
+        <div class="footer-socials"><span>🌐</span><span>♻️</span><span>🔄</span></div>
+      </div>
+      <div class="footer-col">
+        <strong>Topics</strong>
+        <a href="#post-1">The Causes of Global Warming</a>
+        <a href="#post-2">Climate Change and Its Impact</a>
+        <a href="#post-3">Effect of Biodiversity Loss</a>
+      </div>
+      <div class="footer-col">
+        <strong>Resources</strong>
+        <a href="https://www.ipcc.ch" target="_blank">IPCC Reports</a>
+        <a href="https://www.who.int/health-topics/climate-change" target="_blank">WHO Environment</a>
+        <a href="https://www.iucnredlist.org/" target="_blank">IUCN Red List</a>
+        <a href="https://www.unep.org" target="_blank">UNEP</a>
+        <a href="https://ndrrmc.gov.ph" target="_blank">NDRRMC</a>
+      </div>
+      <div class="footer-col">
+        <strong>About</strong>
+        <a href="#about">Blog Introduction</a>
+        <a href="#about">Objectives</a>
+        <a href="#posts">All 3 Posts</a>
+        <a href="#references">References</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 EcoVoice PH · IT Students · All Rights Reserved</span>
+      <span>Made with 💚 for the Planet</span>
+    </div>
+  </footer>
+
+  <!-- ARTICLE MODAL -->
+  <div id="article-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+      <div class="modal-hero">
+        <div class="modal-hero-img" id="modal-hero-img"></div>
+        <div class="modal-hero-overlay"></div>
+        <span class="modal-badge" id="modal-badge"></span>
+        <div class="modal-hero-text">
+          <h2 class="modal-title" id="modal-title"></h2>
+          <p class="modal-subtitle" id="modal-subtitle"></p>
+        </div>
+      </div>
+      <div class="modal-meta" id="modal-meta"></div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
