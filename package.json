@@ -1,0 +1,20 @@
+{
+  "name": "ecovoice-ph",
+  "version": "1.0.0",
+  "description": "EcoVoice PH - Student Environmental Blog",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve .",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": [
+    "environment",
+    "blog",
+    "climate-change",
+    "philippines",
+    "education"
+  ],
+  "author": "IT Students 2025",
+  "license": "MIT"
+}
